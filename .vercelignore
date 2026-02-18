@@ -1,9 +1,0 @@
-node_modules
-.expo
-.git
-__tests__
-*.test.ts
-*.test.tsx
-.env.local
-.DS_Store
-screenshots
