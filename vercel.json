@@ -1,0 +1,13 @@
+{
+  "buildCommand": "pnpm expo export --platform web",
+  "outputDirectory": "dist",
+  "devCommand": "pnpm dev:metro",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
